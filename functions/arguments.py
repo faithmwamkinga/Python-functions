@@ -23,16 +23,19 @@ def multiply_many(**kwargs):
         return answer 
 
 def  concatenate_args (*cities): 
-    strings= ""
+    strings= 1
     for city in cities  :
-        strings+=city
+        strings*=city
     return strings
 
 def  concatenate_kwargs(**kwargs):
-    arguments =""
+    arguments =0
     for word in kwargs.values():
         arguments+=word
     return arguments
+        # return word
+    
+
         
        
 

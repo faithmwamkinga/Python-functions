@@ -16,4 +16,4 @@ def multiplication(fifth,sixth):
 
 def modulus(seventh,eighth):
     answer4 = seventh%eighth
-    return answer4
+    return answer4 
