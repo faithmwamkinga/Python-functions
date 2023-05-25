@@ -7,6 +7,9 @@ class Student:
             #  - year_of_birth
             #  - show_initials
     school="Akirachix"
+    #def init is a constructor that is used to ini
+    # declare attributes for class objects 
+#self is used for inheritance
     def __init__(self,firstname,secondname,age,nationality):
         self.firstname=firstname
         self.secondname=secondname
@@ -20,7 +23,8 @@ class Student:
     def initials(self,firstname,secondnanme):
         first_initial=firstname[0]
         lastname_initial=secondnanme[0]
-        print(f"The initials are {first_initial}{lastname_initial}")
+        #alternative print
+        print(f"The initials are {first_initial}.{lastname_initial}")
     
     # nationality="Tanzanian"
 
