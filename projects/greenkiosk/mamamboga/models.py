@@ -1,6 +1,7 @@
 from django.db import models
 
 # Create your models here.
+# from products.models import Products
 class MamaMboga(models.Model):
     name=models.CharField(max_length=32)
     email=models.CharField(max_length=32)

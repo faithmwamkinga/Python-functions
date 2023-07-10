@@ -1,5 +1,6 @@
 from django.db import models
 
+# from order import Order
 # Create your models here.
 class Payment(models.Model):
     amount=models.IntegerField()

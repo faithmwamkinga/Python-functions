@@ -44,7 +44,8 @@ INSTALLED_APPS = [
     'mamamboga',
     'notifications',
     'review',
-    'shipmping'
+    'shipmping',
+    'customer'
 ]
 
 MIDDLEWARE = [
